@@ -1,0 +1,100 @@
+# Site Config
+baseURL: "https://blog.mrhaydendp.com"
+title: "Hayden's Blog"
+paginate: 5
+theme: PaperMod
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON
+
+# Theme Config
+params:
+    env: production
+    title: "Hayden's Blog"
+    description: "A blog for techies"
+    keywords: [Blog, Technology, Linux, Windows, "Raspberry Pi", Computers]
+    author: ["Hayden Plumley"]
+    # images: ["<link or path of image for opengraph, twitter-cards>"]
+    DateFormat: "January 2, 2006"
+    defaultTheme: auto # dark, light, auto
+    disableThemeToggle: false
+    ShowReadingTime: false
+    ShowShareButtons: false
+    ShowPostNavLinks: false
+    ShowBreadCrumbs: true
+    ShowCodeCopyButtons: true
+    ShowWordCount: true
+    ShowRssButtonInSectionTermList: false
+    UseHugoToc: false
+    disableScrollToTop: true
+    comments: true
+    hidemeta: false
+    hideSummary: false
+    showtoc: true
+    tocopen: false
+    editPost:
+        URL: "https://github.com/mrhaydendp/blog.mrhaydendp.com/tree/main/content"
+        Text: "Suggest an Edit"
+        appendFilePath: true
+    
+    # Home-Info Mode
+    homeInfoParams:
+        Title: '$ echo "Hello World!"'
+        Content: A blog for techies
+    socialIcons:
+        - name: github
+          url: "https://github.com/mrhaydendp"
+        - name: twitter
+          url: "https://twitter.com/mrhaydendp"
+        - name: lynx
+          url: "https://lynx.mrhaydendp.com"
+        - name: rss
+          url: "index.xml"
+
+    # Search Options: https://fusejs.io/api/options.html
+    fuseOpts:
+        isCaseSensitive: false
+        shouldSort: true
+        ignoreLocation: true
+        threshold: 0.1
+        minMatchCharLength: 3
+        keys: ["title", "permalink", "summary", "content"]
+
+menu:
+    main:
+        - identifier: categories
+          name: Categories
+          url: /categories/
+          weight: 10
+        - identifier: tags
+          name: Tags
+          url: /tags/
+          weight: 20
+        - identifier: about
+          name: About
+          url: /about/
+          weight: 30
+        - identifier: search
+          name: Search
+          url: /search/
+          weight: 40
+
+label:
+    text: "Home"
+    # icon: /logo.png
+    iconHeight: 35
+
+pygmentsUseClasses: true
+
