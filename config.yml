@@ -45,7 +45,7 @@ params:
     showtoc: true
     tocopen: false
     editPost:
-        URL: "https://github.com/mrhaydendp/blog.mrhaydendp.com/tree/main/content"
+        URL: "https://github.com/mrhaydendp/mrhaydendp.github.io/tree/main/content"
         Text: "Suggest an Edit"
         appendFilePath: true
     
