@@ -2,7 +2,7 @@
 baseURL: "https://blog.mrhaydendp.com"
 title: "Hayden's Blog"
 paginate: 5
-theme: PaperMod
+theme: congo
 
 enableRobotsTXT: true
 buildDrafts: false

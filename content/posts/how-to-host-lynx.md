@@ -2,12 +2,11 @@
 title: "How to Host Lynx on GitHub Pages"
 author: "Hayden Plumley"
 date: "2022-06-24"
+lastmod: "2023-01-01"
 description: "How to setup & host Lynx on GitHub Pages."
 tags: ["Linux","MacOS"]
 categories: ["Tutorials"]
 ---
-
-*Updated: January 1, 2023*
 
 [Lynx](https://github.com/jpanther/lynx) is a Hugo theme designed to be a simple links page, similar to Linktree. Lynx differs by being extremely simple and performant. In this tutorial, I will tell you how to host your own Lynx site on GitHub Pages.
 
