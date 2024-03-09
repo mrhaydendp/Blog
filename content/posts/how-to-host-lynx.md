@@ -2,7 +2,7 @@
 title: "How to Host Lynx on GitHub Pages"
 author: "Hayden Plumley"
 date: "2022-06-24"
-lastmod: "2023-01-01"
+lastmod: "2024-03-09"
 description: "How to setup & host Lynx on GitHub Pages."
 tags: ["Linux","MacOS"]
 categories: ["Tutorials"]
@@ -32,11 +32,11 @@ hugo new site lynx
 cd lynx
 
 # Initialize folder & add theme as a submodule so it gets updated as Lynx does.
-git init && git submodule add --depth=1 https://github.com/jpanther/lynx.git themes/Lynx
+git init && git submodule add -b stable https://github.com/jpanther/lynx.git themes/Lynx
 ```
 
 ## Example Config
-Next, copy this base config to `config.toml` and tweak to your liking. You can preview your site by running `hugo server` and clicking the link it generates (e.g. localhost:1313). Full configuration options [here](https://github.com/jpanther/lynx#configuration).
+Next, copy this base config to `config.toml` and tweak to your liking. You can preview your site by running `hugo server` and clicking the link it generates (e.g. localhost:1313). Full configuration options [here](https://github.com/jpanther/lynx/blob/stable/config.toml).
 
 ``` toml
 # Site Config
@@ -47,7 +47,7 @@ theme = "Lynx"
 
 enableRobotsTXT = true
 [outputs]
-  home = ["HTML", "JSON"]
+  home = ["HTML"]
 
 # SEO
 [params]
@@ -64,7 +64,7 @@ enableRobotsTXT = true
   headline = "Description/bio"
   links = [
     { github = "https://github.com/username" },
-    { twitter = "https://twitter.com/username" },
+    { x = "https://x.com/username" },
     { email = "mailto:hello@your_domain.com" },
     { link = "https://link-to-some-website.com" }
   ]
@@ -103,10 +103,10 @@ jobs:
         uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: 'latest'
-          # extended: true
+          extended: true
 
       - name: Build
-        run: hugo --minify
+        run: hugo --gc --minify
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
