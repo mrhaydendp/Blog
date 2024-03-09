@@ -24,9 +24,9 @@ Start-BitsTransfer "https://aka.ms/getwinget" getwinget.msixbundle; .\getwinget.
 ## Winget Basics
 | Command                    | Description                     |
 |----------------------------|---------------------------------|
-| `winget install "appname"`   | Install specified application   |
-| `winget install -s source "appname"` | Select Winget's installation source (msstore, winget) |
-| `winget uninstall "appname"` | Uninstall specified application |
-| `winget upgrade "appname"`   | Update specified application    |
-| `winget upgrade --all`       | Update all supported applications   |
+| winget install "appname"   | Install specified application   |
+| winget install -s source "appname" | Select Winget's installation source (msstore, winget) |
+| winget uninstall "appname" | Uninstall specified application |
+| winget upgrade "appname"   | Update specified application    |
+| winget upgrade --all       | Update all supported applications   |
 
