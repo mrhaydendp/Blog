@@ -7,7 +7,7 @@ title = "Hayden's Blog"
 # copyright = "Copy, _right?_ :thinking_face:"
 
 [params]
-  dateFormat = "2 January 2006"
+  dateFormat = "January 2, 2006"
   headline = '$ echo "Hello World!"'
   description = "A blog for techies"
   # mainSections = ["section1", "section2"]
