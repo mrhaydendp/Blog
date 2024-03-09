@@ -2,7 +2,7 @@
 title: "Installing Winget"
 author: "Hayden Plumley"
 date: "2022-05-16"
-lastmod: "2023-01-04"
+lastmod: "2024-03-09"
 description: "How to install Winget in a few simple commands."
 tags: ["Windows"]
 categories: ["Tutorials"]
