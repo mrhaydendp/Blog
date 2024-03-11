@@ -7,11 +7,11 @@ showdate: false
 showcomments: false
 ---
 
-![avatar](../images/avatar.webp) | I am a software developer from California. In my free time, I write scripts and software that are hosted on my GitHub. My strengths include the ability to work well with others, attention to detail, speedy self learning, and motivation.  
+![avatar](../images/avatar.webp) | I'm Hayden Plumley, a tech enthusiast who's all about tinkering with electronics, watching horror movies, and making the perfect cup of espresso. When I'm not wrapped up in those pursuits, I'm likely writing code for my projects on GitHub (and sometimes others). Currently, I'm learning Python to enhance my application/tool, Fire-Tools, and expand my coding skills. Professionally, I excel in collaborative environments, boasting excellent problem-solving skills and a keen attention to detail. In the future, I would like to learn...  
 |-|-|
 
 # Portfolio
 Projects that I am particularly proud of:
 - [Fire-Tools](https://github.com/mrhaydendp/Fire-Tools)
 - [RemoveEdge](https://github.com/mrhaydendp/RemoveEdge)
-- [Website](https://github.com/mrhaydendp/blog.mrhaydendp.com)
+- [Website](https://github.com/mrhaydendp/mrhaydendp.github.io)
