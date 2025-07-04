@@ -1,4 +1,6 @@
-media: assets/images
+media:
+  input: assets/images
+  output: /media
 content:
   - name: posts
     label: Posts
@@ -8,8 +10,3 @@ content:
     label: Projects
     type: collection
     path: content/projects
-    fields:
-      - {name: title, label: Title, type: string}
-      - {name: date, label: Date, type: date}
-      - {name: description, label: Description, type: string}
-      - {name: image, label: Image, type: image}
