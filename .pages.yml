@@ -4,7 +4,7 @@ content:
     label: Posts
     type: collection
     path: content/posts
-  - name: posts
+  - name: projects
     label: Projects
     type: collection
     path: content/projects
