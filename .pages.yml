@@ -1,0 +1,15 @@
+media: assets/images
+content:
+  - name: posts
+    label: Posts
+    type: collection
+    path: content/posts
+  - name: posts
+    label: Projects
+    type: collection
+    path: content/projects
+    fields:
+      - {name: title, label: Title, type: string}
+      - {name: date, label: Date, type: date}
+      - {name: description, label: Description, type: string}
+      - {name: image, label: Image, type: image}
