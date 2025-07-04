@@ -4,7 +4,6 @@ author: "Hayden Plumley"
 date: "2022-05-16"
 description: "How to install split APKs through ADB."
 tags: ["Android","Linux","MacOS","Windows"]
-categories: ["Tutorials"]
 ---
 
 ![Dynamic Delivery](../../images/dynamic-delivery.webp)

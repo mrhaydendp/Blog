@@ -3,7 +3,7 @@ title: "Adding Giscus to your Hugo Site"
 author: "Hayden Plumley"
 date: "2022-06-24"
 description: "How to use Giscus with your Hugo site."
-categories: ["Tutorials"]
+tags: ["Web Development","Hugo"]
 ---
 
 [Giscus](https://github.com/giscus/giscus) is a comments system powered by GitHub discussions. It's free, open-source, and easy to set up. 

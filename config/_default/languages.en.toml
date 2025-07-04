@@ -1,64 +1,34 @@
+disabled = false
 languageCode = "en"
 languageName = "English"
-languageDirection = "ltr"
 weight = 1
-
 title = "Hayden's Blog"
-# copyright = "Copy, _right?_ :thinking_face:"
 
 [params]
-  dateFormat = "January 2, 2006"
-  headline = '$ echo "Hello World!"'
+  displayName = "EN"
+  isoCode = "en"
+  rtl = false
+  dateFormat = "2 January 2006"
+  #logo = "img/logo.png"
+  #secondaryLogo = "img/secondary-logo.png"
   description = "A blog for techies"
-  # mainSections = ["section1", "section2"]
-  
-[params.author]
+  #copyright = "Copy, _right?_ :thinking_face:"
+
+[params.homepage]
+  title = '$ echo "Hello World!"'
+  description = "A blog for techies"
+  #image = ""
+
+ [params.author]
   name = "Hayden Plumley"
-  # image = "img/author.jpg"
-  # headline = ""
-  # bio = ""
+  email = "mrhaydendp@gmail.com"
+  image = "https://avatars.githubusercontent.com/u/29285782?v=4"
+  imageQuality = 75
+  headline = "A blog for techies"
+  bio = "I'm a tech enthusiast who's all about tinkering with electronics, watching horror movies, and making the perfect cup of espresso."
   links = [
-    { github = "https://github.com/mrhaydendp" },
-    { x-twitter = "https://x.com/mrhaydendp" },
-  #   { amazon = "https://www.amazon.com/hz/wishlist/ls/wishlist-id" },
-  #   { apple = "https://www.apple.com" },
-  #   { blogger = "https://username.blogspot.com/" },
-  #   { codepen = "https://codepen.io/username" },
-  #   { dev = "https://dev.to/username" },
-  #   { discord = "https://discord.gg/invitecode" },
-  #   { dribbble = "https://dribbble.com/username" },
-  #   { facebook = "https://facebook.com/username" },
-  #   { flickr = "https://www.flickr.com/photos/username/" },
-  #   { foursquare = "https://foursquare.com/username" },
-    { link = "https://lynx.mrhaydendp.com" },
-  #   { gitlab = "https://gitlab.com/username" },
-  #   { google = "https://www.google.com/" },
-  #   { google-scholar = "https://scholar.google.com/citations?user=user-id" },
-  #   { hashnode = "https://username.hashnode.dev" },
-  #   { instagram = "https://instagram.com/username" },
-  #   { keybase = "https://keybase.io/username" },
-  #   { kickstarter = "https://www.kickstarter.com/profile/username" },
-  #   { lastfm = "https://lastfm.com/user/username" },
-  #   { linkedin = "https://linkedin.com/in/username" },
-  #   { mastodon = "https://mastodon.instance/@username" },
-  #   { medium = "https://medium.com/username" },
-  #   { mendeley = "https://www.mendeley.com/" },
-  #   { microsoft = "https://www.microsoft.com/" },
-  #   { orcid = "https://orcid.org/userid" },
-  #   { patreon = "https://www.patreon.com/username" },
-  #   { pinterest = "https://pinterest.com/username" },
-  #   { reddit = "https://reddit.com/user/username" },
-  #   { researchgate = "https://www.researchgate.net/profile/username" },
-  #   { slack = "https://workspace.url/team/userid" },
-  #   { snapchat = "https://snapchat.com/add/username" },
-  #   { soundcloud = "https://soundcloud.com/username" },
-  #   { stack-overflow = "https://stackoverflow.com/users/userid/username" },
-  #   { steam = "https://steamcommunity.com/profiles/userid" },
-  #   { telegram = "https://t.me/username" },
-  #   { tiktok = "https://tiktok.com/@username" },
-  #   { tumblr = "https://username.tumblr.com" },
-  #   { twitch = "https://twitch.tv/username" },
-  #   { whatsapp = "https://wa.me/phone-number" },
-    { email = "mailto:mrhaydendp@gmail.com" },
-  #   { youtube = "https://youtube.com/username" },
+     { github = "https://github.com/mrhaydendp" },
+     { x-twitter = "https://x.com/mrhaydendp" },
+     { link = "https://lynx.mrhaydendp.com/" },
+     { email = "mailto:mrhaydendp@gmail.com" },
   ]
