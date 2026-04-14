@@ -30,7 +30,7 @@ main() {
   NODE_VERSION=24.14.1
 
   # Set the build timezone
-  export TZ=Europe/Oslo
+  export TZ=America/Los_Angeles
 
   # Create and move into a temporary directory for downloads
   build_temp_dir=$(mktemp -d)
