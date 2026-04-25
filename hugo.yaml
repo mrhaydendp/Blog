@@ -20,7 +20,7 @@ params:
   description: "A blog for techies."
   keywords: [Blog, Linux, Portfolio]
   author: ["Hayden Plumley"]
-  #images: ["<link or path of image for opengraph, twitter-cards>"]
+  images: ["favicon.svg"]
   DateFormat: "January 2, 2006"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
@@ -44,16 +44,16 @@ params:
   assets:
     # disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
-    favicon: "favicon.ico"
-    favicon16x16: "favicon-16x16.png"
-    favicon32x32: "favicon-32x32.png"
-    apple_touch_icon: "apple-touch-icon.png"
-    #safari_pinned_tab: "<link / abs url>"
+    favicon: "favicon.svg"
+    favicon16x16: "favicon.svg"
+    favicon32x32: "favicon.svg"
+    apple_touch_icon: "favicon.svg"
+    safari_pinned_tab: "favicon.svg"
 
   label:
     text: "Hayden's Blog"
-    #icon: /apple-touch-icon.png
-    #iconHeight: 35
+    icon: "favicon.svg"
+    iconHeight: 30
 
   # home-info mode
   homeInfoParams:
@@ -92,6 +92,7 @@ params:
     minMatchCharLength: 0
     limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
     keys: ["title", "permalink", "summary", "content"]
+
 menu:
   main:
     - identifier: projects

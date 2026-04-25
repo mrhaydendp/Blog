@@ -34,8 +34,3 @@ content:
       - { name: author, label: Author, type: string, default: "Hayden Plumley" }
       - { name: tags, label: Tags, type: string, list: true  }
       - { name: body, label: Content, type: rich-text }
-          
-  - name: projects
-    label: Projects
-    type: collection
-    path: content/projects
