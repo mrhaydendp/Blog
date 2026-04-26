@@ -7,6 +7,7 @@ author: Hayden Plumley
 tags:
   - Android
   - macOS
+  - Linux
 ---
 ![Dynamic Delivery](/images/dynamic-delivery.webp)
 *Gif Courtesy: [Mallow's Blog](https://blog.mallow-tech.com/)*
