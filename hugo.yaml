@@ -42,7 +42,7 @@ params:
   tocopen: false
 
   assets:
-    # disableHLJS: true # to disable highlight.js
+    disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
     favicon: "favicon.svg"
     favicon16x16: "favicon.svg"
@@ -82,15 +82,16 @@ params:
     appendFilePath: true # to append file path to Edit link
 
   # for search
-  # https://fusejs.io/api/options.html
+  # https://www.fusejs.io/fuzzy-search.html
+  # https://www.fusejs.io/token-search.html
   fuseOpts:
+    useTokenSearch: true
     isCaseSensitive: false
-    shouldSort: true
+    threshold: 0.3
+    distance: 100
+    limit: 5
     location: 0
-    distance: 1000
-    threshold: 0.4
-    minMatchCharLength: 0
-    limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
+    shouldSort: false
     keys: ["title", "permalink", "summary", "content"]
 
 menu:
@@ -116,12 +117,12 @@ menu:
 pygmentsUseClasses: true
 markup:
   highlight:
+    anchorLineNos: false
+    codeFences: true
+    guessSyntax: true
+    lineNos: true
     noClasses: false
-    # anchorLineNos: true
-    # codeFences: true
-    # guessSyntax: true
-    # lineNos: true
-    # style: monokai
+    style: monokai
 
 # Necessary for search
 outputs:
