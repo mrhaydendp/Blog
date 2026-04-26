@@ -30,7 +30,7 @@ content:
       - { name: title, label: Title, type: string }
       - { name: description, label: Description, type: string }
       - { name: date, label: Date, type: date }
-      - { name: slug, label: Slug, type: string, default: {primary} }
+      - { name: slug, label: Slug, type: string }
       - { name: draft, label: Draft, type: boolean }
       - { name: author, label: Author, type: string, default: "Hayden Plumley" }
       - { name: tags, label: Tags, type: string, list: true }
