@@ -1,28 +1,34 @@
 ---
-title: "How to Host Lynx on GitHub Pages"
-author: "Hayden Plumley"
-date: "2022-06-24"
-description: "How to setup & host Lynx on GitHub Pages."
-tags: ["Web Development","Hugo","Linux","MacOS"]
+draft: false
+title: How to Host Lynx on GitHub Pages
+date: 2022-06-24
+slug: hugo-lynx
+author: Hayden Plumley
+tags:
+  - Web Development
+  - Hugo
+  - Linux
+  - MacOS
 ---
-
 [Lynx](https://github.com/jpanther/lynx) is a Hugo theme designed to be a simple links page, similar to Linktree. Lynx differs by being extremely simple and performant. In this tutorial, I will tell you how to host your own Lynx site on GitHub Pages.
 
 ![Lynx Preview](/images/lynx.webp)
 
 ## Installing Hugo
+
 To progress, you will need to install Hugo and Git. [Hugo](https://gohugo.io) is an open-source static site generator known for its speed and flexibility, it will be the base for our GitHub Pages site. Git is a command-line tool used to interface with the Git system.
 
-``` shell
+```shell
 sudo apt install hugo git
 # or MacOS
 brew install hugo git
 ```
 
 ## Setting Up Your Site
+
 Now let's set up your site and add the Lynx theme. First, create a site with Hugo's `new site` command. Next open your site's folder and initialize it, once completed add the Lynx theme as a submodule. This will create a symlink to the Lynx repository, so new versions will be pulled when it's updated.
 
-``` shell
+```shell
 # Create site named "lynx"
 hugo new site lynx
 
@@ -34,9 +40,10 @@ git init && git submodule add -b stable https://github.com/jpanther/lynx.git the
 ```
 
 ## Example Config
+
 Next, copy this base config to `config.toml` and tweak to your liking. You can preview your site by running `hugo server` and clicking the link it generates (e.g. localhost:1313). Full configuration options [here](https://github.com/jpanther/lynx/blob/stable/config.toml).
 
-``` toml
+```toml
 # Site Config
 baseURL = "https://username.github.io" # Add /reponame for project site
 languageCode = "en-us"
@@ -77,9 +84,10 @@ disableKinds = ["taxonomy", "term"]
 ```
 
 ## Adding GitHub Workflow & Deploying
+
 Once you feel like your site is complete, save this workflow file to `.github/workflows/gh-pages.yml` in your site's folder. Now all that's left to do is upload your site-folder's contents to GitHub and set GitHub Pages' deployment branch to `gh-pages`.
 
-``` yaml
+```yaml
 name: github pages
 
 on:
@@ -113,3 +121,4 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
 ```
+
