@@ -1,8 +1,9 @@
 ---
-title: Installing Winget
-description: How to install Winget in a few simple commands.
-date: 2022-05-16
 draft: false
+title: Installing Winget
+date: 2022-05-16
+summary: "The basics of installing Winget (if not already installed) and commonly used commands."
+slug: winget
 author: Hayden Plumley
 tags:
   - Windows
@@ -21,7 +22,8 @@ Here's a one-liner to get Winget installed through Powershell:
 
 ```powershell
 # Download Winget installer from Microsoft & launch it
-Start-BitsTransfer "https://aka.ms/getwinget" getwinget.msixbundle; .\getwinget.msixbundle
+Start-BitsTransfer "https://aka.ms/getwinget" getwinget.msixbundle
+.\getwinget.msixbundle
 ```
 
 ## Winget Basics

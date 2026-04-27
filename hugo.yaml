@@ -74,7 +74,7 @@ params:
   cover:
     hidden: true # hide everywhere but not in structured data
     hiddenInList: true # hide on list pages and home
-    hiddenInSingle: true # hide on single page
+    hiddenInSingle: false # hide on single page
 
   editPost:
     URL: "https://github.com/mrhaydendp/blog/tree/main/content"
@@ -100,18 +100,22 @@ menu:
       name: Projects
       url: https://github.com/mrhaydendp?tab=repositories
       weight: 10
+    - identifier: posts
+      name: Posts
+      url: /posts/
+      weight: 20
     - identifier: tags
       name: Tags
       url: /tags/
-      weight: 20
+      weight: 30
     - identifier: about
       name: About
       url: /About
-      weight: 30
+      weight: 40
     - identifier: search
       name: Search
       url: /search/
-      weight: 40
+      weight: 50
 
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true

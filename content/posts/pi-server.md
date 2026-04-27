@@ -1,9 +1,12 @@
 ---
+draft: false
 title: "Raspberry Pi Server"
-author: "Hayden Plumley"
 date: "2022-06-18"
-description: "How to setup DietPi & CasaOS on your Pi."
-tags: ["Linux"]
+summary: "How to turn your Raspberry Pi into a home server using DietPi as the base and CasaOS as a frontend for installing a managing self hosted services."
+slug: pi-server
+author: "Hayden Plumley"
+tags:
+  - Linux
 ---
 
 If you've ever considered running Pi-Hole, Jellyfin, or Nextcloud, why shell out hundreds of dollars for a PC when you can host these services on a $45 Raspberry Pi 4. Once set up the Pi can be a pretty amazing low powered server, especially when paired with DietPi and CasaOS. Here's what you'll need to do to install DietPi and CasaOS:

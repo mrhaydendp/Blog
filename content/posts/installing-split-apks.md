@@ -1,8 +1,9 @@
 ---
+draft: false
 title: Installing Split APKs Through ADB
-description: How to install split APKs through ADB.
 date: 2022-05-16
-draft: true
+summary: "The benefits of App Bundles (split apks) and how to install them from your PC using ADB."
+slug: split-apks
 author: Hayden Plumley
 tags:
   - Android

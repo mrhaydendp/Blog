@@ -1,12 +1,15 @@
 ---
+draft: false
 title: "Adding Giscus to your Hugo Site"
-author: "Hayden Plumley"
 date: "2022-06-24"
-description: "How to use Giscus with your Hugo site."
-tags: ["Web Development","Hugo"]
+summary: "How to integrate Giscus, the GitHub discussions powered comment system, into any Hugo site."
+slug: giscus-hugo
+author: "Hayden Plumley"
+tags:
+  - Web Development
+  - Hugo
 ---
-
-[Giscus](https://github.com/giscus/giscus) is a comments system powered by GitHub discussions. It's free, open-source, and easy to set up. 
+[Giscus](https://github.com/giscus/giscus) is a comments system powered by GitHub discussions. It's free, open-source, and easy to set up.
 
 ## Repository Setup
 First, you'll need to make a public repository on GitHub to host the comments. Once created, find the [Giscus app](https://github.com/apps/giscus) on the marketplace and click install. Now enable discussions by navigating to Settings > Optional Features and checking `Discussions`.
