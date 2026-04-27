@@ -17,7 +17,7 @@ minify:
 params:
   env: production
   title: "Hayden's Blog"
-  description: "A blog for techies."
+  description: "Practical guides for Linux, Android, open source software, and system optimization for your personal projects and homelab setups."
   keywords: [Blog, Linux, Portfolio]
   author: ["Hayden Plumley"]
   images: ["favicon.svg"]
@@ -58,7 +58,7 @@ params:
   # home-info mode
   homeInfoParams:
     Title: '$ echo "Hello World!"'
-    Content: "A blog for techies"
+    Content: "A blog made for people interested in Linux, Android, open source, and whatever software I'm hyper-fixating on this month."
 
   socialIcons:
     - name: github
@@ -66,7 +66,7 @@ params:
     - name: x
       url: "https://x.com/mrhaydendp"
     - name: rss
-      url: "https://blog.mrhaydendp.com/index.xml"
+      url: /posts/index.xml
     - name: email
       url: "mailto:mrhaydendp@gmail.com"
       
@@ -98,7 +98,7 @@ menu:
   main:
     - identifier: projects
       name: Projects
-      url: https://github.com/mrhaydendp?tab=repositories
+      url: "https://github.com/mrhaydendp?tab=repositories"
       weight: 10
     - identifier: posts
       name: Posts
