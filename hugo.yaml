@@ -20,7 +20,7 @@ params:
   description: "Practical guides for Linux, Android, open source software, and system optimization for your personal projects and homelab setups."
   keywords: [Blog, Linux, Portfolio]
   author: ["Hayden Plumley"]
-  images: ["preview.png"]
+  images: ["apple-touch-icon.png"]
   DateFormat: "January 2, 2006"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
