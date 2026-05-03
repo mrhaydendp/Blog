@@ -1,25 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="256" height="256" version="1.1"
-     xmlns="http://www.w3.org/2000/svg"
-     xmlns:xlink="http://www.w3.org/1999/xlink">
-  <defs>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="256" height="256"><metadata><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/"><rdf:Description><dc:creator>RealFaviconGenerator</dc:creator><dc:source>https://realfavicongenerator.net</dc:source></rdf:Description></rdf:RDF></metadata><defs>
     <linearGradient id="Gradient" x1="0" x2="0" y1="0" y2="1">
-      <stop offset="0%" style="stop-color:#2E2E33;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#2E2E33;stop-opacity:1" />
+      <stop offset="0%" style="stop-color:#2E2E33;stop-opacity:1"></stop>
+      <stop offset="100%" style="stop-color:#2E2E33;stop-opacity:1"></stop>
     </linearGradient>
     <filter id="alpha-to-white">
-      <feColorMatrix in="SourceGraphic" type="matrix"
-                     values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0"/>
+      <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0"></feColorMatrix>
     </filter>
-    <g id="child-svg"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"><g color="#bebebe" fill="#474747"><path d="M2.2 0C.993 0 0 1.007 0 2.209v10.582C0 13.993.994 15 2.2 15h11.6c1.206 0 2.2-1.007 2.2-2.209V2.209C16 1.007 15.006 0 13.8 0zm0 2h11.6c.124 0 .2.071.2.209v10.582c0 .138-.076.209-.2.209H2.2c-.124 0-.2-.071-.2-.209V2.209C2 2.071 2.076 2 2.2 2z" style="line-height:normal;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;text-orientation:mixed;shape-padding:0;isolation:auto;mix-blend-mode:normal;marker:none" font-weight="400" font-family="sans-serif" overflow="visible" /><path d="M4.494 5.895a.6.6 0 00-.418 1.029L5.652 8.5l-1.576 1.576a.6.6 0 10.848.848l2-2a.6.6 0 000-.848l-2-2a.6.6 0 00-.43-.181z" style="line-height:normal;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;text-orientation:mixed;shape-padding:0;isolation:auto;mix-blend-mode:normal;marker:none" font-weight="400" font-family="sans-serif" overflow="visible" /><path d="M8 10h3v1H8z" style="marker:none" overflow="visible" /></g></svg></g>
-  </defs>
-  <rect
-      width="256"
-      height="256"
-      fill="url(#Gradient)"
-      ry="0"
-      x="0"
-      y="0" />
-  <use xlink:href="#child-svg" filter="url(#alpha-to-white)"
-       transform="matrix(8,0,0,8,64,64)" />
-</svg>
+    <g id="child-svg"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"><g color="#bebebe" fill="#474747"><path d="M2.2 0C.993 0 0 1.007 0 2.209v10.582C0 13.993.994 15 2.2 15h11.6c1.206 0 2.2-1.007 2.2-2.209V2.209C16 1.007 15.006 0 13.8 0zm0 2h11.6c.124 0 .2.071.2.209v10.582c0 .138-.076.209-.2.209H2.2c-.124 0-.2-.071-.2-.209V2.209C2 2.071 2.076 2 2.2 2z" style="line-height:normal;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;text-orientation:mixed;shape-padding:0;isolation:auto;mix-blend-mode:normal;marker:none" font-weight="400" font-family="sans-serif" overflow="visible"></path><path d="M4.494 5.895a.6.6 0 00-.418 1.029L5.652 8.5l-1.576 1.576a.6.6 0 10.848.848l2-2a.6.6 0 000-.848l-2-2a.6.6 0 00-.43-.181z" style="line-height:normal;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;text-orientation:mixed;shape-padding:0;isolation:auto;mix-blend-mode:normal;marker:none" font-weight="400" font-family="sans-serif" overflow="visible"></path><path d="M8 10h3v1H8z" style="marker:none" overflow="visible"></path></g></svg></g>
+  </defs><rect width="256" height="256" fill="url(#Gradient)" ry="0" x="0" y="0"></rect><use xlink:href="#child-svg" filter="url(#alpha-to-white)" transform="matrix(8,0,0,8,64,64)"></use></svg>
